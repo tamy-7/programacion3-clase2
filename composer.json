@@ -2,7 +2,8 @@
     "name": "usuario/aura-terra-parcial",
     "autoload": {
         "psr-4": {
-            "Src\\": "src/"
+            "Src\\": "src/",
+            "Src\\config\\": "config/"
         }
     },
     "authors": [
@@ -11,5 +12,7 @@
             "email": "tamy_9513@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/database": "^10.0"
+    }
 }
